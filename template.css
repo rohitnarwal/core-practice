@@ -1,0 +1,35 @@
+nav {
+    text-align: center;
+}
+.menu {
+    display: inline-block;
+    list-style: none;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    width: 33%;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+button.black {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.section1 div {
+    display: inline-block;
+    width: calc(50% - 16px);
+    text-align: center;
+    vertical-align: top;
+}
